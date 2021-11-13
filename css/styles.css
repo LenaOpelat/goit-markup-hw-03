@@ -205,6 +205,11 @@ body {
 
 /* Section */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-features {
   padding-top: 94px;
 }
@@ -248,11 +253,6 @@ body {
   margin-bottom: 50px;
 }
 
-.section-work {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -268,8 +268,6 @@ body {
 
 .section-team {
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-list {
