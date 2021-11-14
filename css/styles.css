@@ -170,7 +170,7 @@ body {
 }
 
 .hero-title {
-  margin: 30px auto;
+  margin: 0 auto;
   width: 696px;
 
   color: #ffffff;
@@ -186,6 +186,7 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
+  margin-top: 30px;
 
   background: var(--accent-color);
   color: #ffffff;
@@ -197,7 +198,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-container {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -308,9 +309,6 @@ body {
 
 .footer {
   background: #2f303a;
-}
-
-.footer-conteiner {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -318,6 +316,18 @@ body {
 .logo-footer {
   display: block;
   margin-bottom: 20px;
+}
+
+.address-item {
+  margin-bottom: 9px;
+}
+
+.contact-item {
+  margin-bottom: 9px;
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
 }
 
 .address-link {
@@ -355,8 +365,6 @@ body {
 .btn {
   border: none;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   padding: 6px 22px;
 
   background: #f5f4fa;
@@ -369,6 +377,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .btn-item {
   margin-right: 8px;
 }
@@ -383,7 +398,7 @@ body {
 }
 
 .btn-list {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -430,9 +445,4 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-}
-
-.container-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
